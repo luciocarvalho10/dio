@@ -1,0 +1,119 @@
+1970 	MS e Basic 	bill gates
+
+1980 	DOS		IBM
+
+1997	VS97		
+	VB5
+	VFP5
+	C++5
+	J++		MS
+
+1998	VS6.0		
+	VB6
+	VFP6
+	C++6
+	J++6		MS
+1999	ASP+
+	ASP Next
+	ASpX		Scoot Guthrie
+
+1999	CLR vb c++	Jason Zander
+
+1999	C#		Anders Hejlsberg
+
+2000	.NET 1.0(NGWS)	
+	NEXT GENERATION
+	WINDOW SERVICE	MS
+
+2001	MONO		Miguel de Icaza
+
+2002 	VS .Net c C#
+	C#.Net C++.NET
+	VB.Net J#.net	MS
+
+2003	.NET 1.1 
+	VS2003 CLR2	MS
+
+2005	VS2005
+	.NET 2.0 c C# 2	MS
+
+2007/8	VS2008 c SL
+	WPF e WCF
+	.NET 3.5 c C# 3
+	ASP.NET MVC
+	windows azure	MS
+	
+2010	.NET 4 c C# 4
+	VS2010 c F#
+	Windows Azure	MS
+	typescript	Anders Hejlsberg
+
+2011	Xamarin		Miguel de Icaza
+
+2012	.NET 4.5
+	c C# 5 no 
+	VS2012
+	Tpescript-Lanç	MS
+
+2013	.NET 4.5.1
+	VS2013
+	Roslyn		MS
+
+2014	Satya Nadella
+	.NET Foudation
+	Win Azu->MS Azu
+	ASP.NET Core->
+	ASP.NET vNext	MS
+
+2015	.NET 4.6 c C# 6
+	VS2015
+	VS Code MS
+
+2016	compra 
+	Xamarin
+	VS for Mac
+	.NET Core 1.0	MS
+
+2017	.NET FrWork 4.7
+	C# 7 no VS2017
+	.NET Core 2
+	C# 7 no VS2017,
+	VS Code e 
+	VS for Mac	MS
+
+2019	.NET FrWork 4.8
+	C# 7.3 no VS2019
+	.NET Core 3
+	C# 8 no VS2019,
+	VS Code e 
+	VS for Mac	MS
+	
+
+o que é
+infraestrutura para desenvolvimento 
+de software criada pela microsoft
+roda em:		Runtimes
+.Net Core 			CoreCLR e CoreRT
+.Net FrameWork 			CLR
+Mono 				Mono Runtime
+UWP-Universal Windows Plataform	.NetNative
+
+linguagens
+C#	F#	VB
+Ori Obj	Ori fun	
+
+onde usar
+desktop		wpf windows forms uwp
+web		asp.net
+cloud		azure
+mobile		xamarin
+gaming		unity
+iot		arm32 arm64
+ai		ml.net .net for apache spark
+
+tools
+VS		windows
+VS for mac	MacOs
+VS code		mult plataform
+cli		win lin
+

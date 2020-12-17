@@ -1,0 +1,6 @@
+O recurso telemetria do SDK do .NET é 
+habilitado por padrão. 
+Para recusar o recurso de telemetria, defina a 
+variável de ambiente 
+DOTNET_CLI_TELEMETRY_OPTOUT como 1 ou true.
+
