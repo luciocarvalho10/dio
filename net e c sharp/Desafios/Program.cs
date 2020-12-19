@@ -7,6 +7,7 @@ namespace Desafios
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            new Desafio01();
         }
     }
 }
