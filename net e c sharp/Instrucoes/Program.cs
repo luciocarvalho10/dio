@@ -28,6 +28,7 @@ namespace Instrucoes
         Console.WriteLine($"{args.Length} argumentos");
       }
     }
+    
     static void InstrucaoSwitch(String[] args)
     {
       switch (args.Length)
@@ -43,6 +44,7 @@ namespace Instrucoes
           break;
       }
     }
+    
     static void InstrucaoWhile(String[] args)
     {
       int i = 0;
@@ -62,6 +64,7 @@ namespace Instrucoes
         Console.WriteLine(text);
       } while (!string.IsNullOrEmpty(text));
     }
+    
     static void InstucaoFor(string[] args)
     {
       for (int i = 0; i < args.Length; i++)
@@ -69,6 +72,7 @@ namespace Instrucoes
         Console.WriteLine($"{args[i]} - {i}");
       }
     }
+    
     static void InstucaoForeach(string[] args)
     {
       foreach (string s in args)
@@ -153,6 +157,7 @@ namespace Instrucoes
         w.WriteLine("Line 3");
       }
     }
+    
     static void Main(string[] args)
     {
       Console.WriteLine("Hello World!");
