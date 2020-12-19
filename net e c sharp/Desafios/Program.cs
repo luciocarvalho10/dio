@@ -2,12 +2,14 @@
 
 namespace Desafios
 {
-    class Program
+  class Program
+  {
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-            new Desafio01();
-        }
+      Console.WriteLine("Hello World!");
+      new Desafio01();
+      new Desafio02();
+      new Desafio03();
     }
+  }
 }
