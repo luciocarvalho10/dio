@@ -1,0 +1,73 @@
+		entity FW
+database first
+	ler BD e aplicar engenharia reversa classes preencher tabela
+model first
+	gerar modelo para BD atraves do EDM
+code first
+	cria as classes e entrega ao framework criar BD 
+	classes POCO plan old clr obj -> dotnet tipos, livres para outros FW
+		
+		data annotation
+		inclui atributos e metodos
+required - requerido
+regularExpression - regex valição
+display - nome exibido
+stringLength - esolhe max string
+minLength - escolhe min string
+displayFormat - data é mais comum, interface para o usuario
+range - faixa de dados aceita
+
+		migrations
+	cria, atualiza, deleta
+create database if not exists
+	se alterado apaga todo o BD no recriar
+drop database always
+	cria sempre que inicia o programa apagando todo o BD
+drop DB if model changes
+	caso o model seja alterado ele apaga tof[do o BD
+
+		MVC
+		3 camadas - model view controller
+model
+	read, write, validation
+view
+	html ou xml
+controller
+	constrola ligação model e view
+
+
+		routes
+web forms
+	envia req para pages fisicas
+mvc
+	envia req para controller pages nao precisam ser fisicas
+routes
+	url: controller/action=index/id? -> aceita personalização
+routes customs
+	url: strudent/id?/name?/standartId?
+
+
+		action results
+	controller action - varios tipos
+
+		HTTP verbs - metodos http de req
+get, post, put-patch, delete
+
+		razor
+	ajudar na view e code
+
+beneficios
+	curva de aprendizagem menor
+	sintaxe clara
+	Visual Studio ajuda com ele
+
+		middlewares
+componentes - classes
+	adiciona ou modifica a req
+
+		startup.cs
+	inicia o proj e config
+configureservice
+	registra classe para uso
+configure
+	pelo pipeline inclui os middlewares
